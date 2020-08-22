@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hello-spring-cloud-alibaba-nacos-consumer-feign" />
+        <module name="hello-spring-cloud-alibaba-nacos-provider" />
         <module name="hello-spring-cloud-alibaba-nacos-consumer" />
-        <module name="hello-spring-cloud-alibaba-provider" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hello-spring-cloud-alibaba-nacos-consumer" options="-parameters" />
-      <module name="hello-spring-cloud-alibaba-provider" options="-parameters" />
+      <module name="hello-spring-cloud-alibaba-nacos-consumer-feign" options="-parameters" />
+      <module name="hello-spring-cloud-alibaba-nacos-provider" options="-parameters" />
     </option>
   </component>
 </project>

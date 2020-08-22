@@ -34,3 +34,5 @@ build/
 runtime/
 
 .idea/
+.idea/compiler.xml
+.idea/encodings.xml

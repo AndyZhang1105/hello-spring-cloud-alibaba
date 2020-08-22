@@ -9,6 +9,7 @@
         <module>hello-spring-cloud-alibaba-dependencies</module>
         <module>hello-spring-cloud-alibaba-nacos-provider</module>
         <module>hello-spring-cloud-alibaba-nacos-consumer</module>
+        <module>hello-spring-cloud-alibaba-nacos-consumer-feign</module>
     </modules>
 
     <packaging>pom</packaging>
