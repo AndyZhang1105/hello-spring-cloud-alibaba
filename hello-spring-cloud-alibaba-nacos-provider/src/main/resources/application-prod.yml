@@ -16,3 +16,5 @@ management:
         include: "*"
 
 
+user:
+  name: forProd

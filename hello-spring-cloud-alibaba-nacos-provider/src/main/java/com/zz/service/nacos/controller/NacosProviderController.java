@@ -13,6 +13,9 @@ public class NacosProviderController {
     @Value("${server.port}")
     private String port;
 
+    @Value("${user.name}")
+    private String userName;
+
     // 注入配置文件上下文
     @Autowired
     private ConfigurableApplicationContext applicationContext;
@@ -25,7 +28,7 @@ public class NacosProviderController {
     // 从上下文中读取配置
     @GetMapping(value = "/hi")
     public String sayHi() {
-        return "Hello " + applicationContext.getEnvironment().getProperty("user.name");
+        return "Hello " + applicationContext.getEnvironment().getProperty("user.name") + ", user.name from value: " + userName;
     }
 
 }
