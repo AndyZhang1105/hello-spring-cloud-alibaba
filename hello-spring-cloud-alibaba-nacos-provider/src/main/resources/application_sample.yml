@@ -15,6 +15,5 @@ management:
       exposure:
         include: "*"
 
-
 user:
-  name: forProd
+  name: aaabbb

@@ -36,3 +36,5 @@ runtime/
 .idea/
 .idea/compiler.xml
 .idea/encodings.xml
+
+*/target/
