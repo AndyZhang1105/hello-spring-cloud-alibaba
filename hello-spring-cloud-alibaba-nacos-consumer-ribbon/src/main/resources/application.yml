@@ -22,4 +22,5 @@ ribbon:
   ConnectTimeout: 5000 #请求连接的超时时间
   ReadTimeout: 6000  #请求处理的超时时间
   #NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #配置负载均衡算法-我这里使用的是自定义的Ribbon的负载均衡算法，默认
-  #NFLoadBalancerRuleClassName: com.itmuch.cloud.study.ribbon.NacosClusterAwareWeightedRule #配置负载均衡算法-我这里使用的是自定义的Ribbon的负载均衡算法，默认
+  #NFLoadBalancerRuleClassName: com.zz.hello.consumer.config.ribbon_same_cluster.NacosClusterAwareWeightedRuleConfiguration #配置负载均衡算法-我这里使用的是自定义的Ribbon的负载均衡算法
+
