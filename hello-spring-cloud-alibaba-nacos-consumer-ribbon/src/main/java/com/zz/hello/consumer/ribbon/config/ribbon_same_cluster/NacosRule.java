@@ -1,4 +1,4 @@
-package com.zz.hello.consumer.config.ribbon_same_cluster;
+package com.zz.hello.consumer.ribbon.config.ribbon_same_cluster;
 
 import com.alibaba.cloud.nacos.NacosDiscoveryProperties;
 import com.alibaba.cloud.nacos.ribbon.ExtendBalancer;

@@ -1,4 +1,4 @@
-package com.zz.hello.consumer.config.ribbon_meta;
+package com.zz.hello.consumer.ribbon.config.ribbon_meta;
 
 import com.alibaba.nacos.api.naming.pojo.Instance;
 import com.alibaba.nacos.client.naming.core.Balancer;

@@ -1,4 +1,4 @@
-package com.zz.hello.consumer.config.ribbon_weight;
+package com.zz.hello.consumer.ribbon.config.ribbon_weight;
 
 import com.alibaba.cloud.nacos.NacosDiscoveryProperties;
 import com.alibaba.cloud.nacos.ribbon.NacosServer;

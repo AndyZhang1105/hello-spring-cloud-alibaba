@@ -1,4 +1,4 @@
-package com.zz.hello.consumer;
+package com.zz.hello.consumer.ribbon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

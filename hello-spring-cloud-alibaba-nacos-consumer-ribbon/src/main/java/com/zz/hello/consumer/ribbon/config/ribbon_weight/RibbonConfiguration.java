@@ -1,4 +1,4 @@
-package com.zz.hello.consumer.config.ribbon_weight;
+package com.zz.hello.consumer.ribbon.config.ribbon_weight;
 
 import com.netflix.loadbalancer.IRule;
 import org.springframework.context.annotation.Configuration;

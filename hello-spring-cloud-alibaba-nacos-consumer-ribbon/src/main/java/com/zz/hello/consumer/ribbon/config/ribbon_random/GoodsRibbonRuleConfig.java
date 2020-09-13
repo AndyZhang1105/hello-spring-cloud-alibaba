@@ -1,4 +1,4 @@
-package com.zz.hello.consumer.config.ribbon_random;
+package com.zz.hello.consumer.ribbon.config.ribbon_random;
 
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;
