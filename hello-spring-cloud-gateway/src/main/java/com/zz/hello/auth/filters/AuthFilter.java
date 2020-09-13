@@ -1,4 +1,4 @@
-package com.zz.hello.gateway.filters;
+package com.zz.hello.auth.gateway.filters;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

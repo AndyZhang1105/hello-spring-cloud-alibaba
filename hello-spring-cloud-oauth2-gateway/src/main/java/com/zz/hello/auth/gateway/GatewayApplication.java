@@ -1,4 +1,4 @@
-package com.zz.hello.gateway;
+package com.zz.hello.auth.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

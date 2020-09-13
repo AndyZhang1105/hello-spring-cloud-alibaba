@@ -12,6 +12,9 @@
         <module>hello-spring-cloud-alibaba-nacos-consumer-feign</module>
         <module>hello-spring-cloud-gateway</module>
         <module>hello-spring-cloud-alibaba-nacos-consumer-ribbon</module>
+        <module>hello-spring-cloud-oauth2-gateway</module>
+        <module>hello-spring-cloud-oauth2-auth</module>
+        <module>hello-spring-cloud-oauth2-auth-api</module>
     </modules>
 
     <packaging>pom</packaging>
