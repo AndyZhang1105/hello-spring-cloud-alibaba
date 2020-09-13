@@ -22,7 +22,6 @@ import java.util.stream.Collectors;
 
 /**
  * 用户管理业务类
- * Created by macro on 2020/6/19.
  */
 @Service
 public class UserServiceImpl implements UserDetailsService {
@@ -36,8 +35,8 @@ public class UserServiceImpl implements UserDetailsService {
     public void initData() {
         String password = passwordEncoder.encode("123456");
         userList = new ArrayList<>();
-        userList.add(new UserDTO(1L,"macro", password,1, CollUtil.toList("ADMIN")));
-        userList.add(new UserDTO(2L,"andy", password,1, CollUtil.toList("TEST")));
+        userList.add(new UserDTO(1L,"macro", password, 1, CollUtil.toList("ADMIN")));
+        userList.add(new UserDTO(2L,"andy", password, 1, CollUtil.toList("TEST")));
     }
 
     @Override
