@@ -1,4 +1,4 @@
-package com.zz.hello.auth.api.config;
+package com.zz.hello.consumer.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.zz.hello.auth.api.controller;
+package com.zz.hello.consumer.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

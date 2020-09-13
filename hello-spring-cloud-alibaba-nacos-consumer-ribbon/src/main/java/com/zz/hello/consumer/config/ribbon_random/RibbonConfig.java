@@ -1,6 +1,5 @@
 package com.zz.hello.consumer.config.ribbon_random;
 
-import com.zz.hello.consumer.config.ribbon_random.GoodsRibbonRuleConfig;
 import org.springframework.cloud.netflix.ribbon.RibbonClients;
 import org.springframework.context.annotation.Configuration;
 
