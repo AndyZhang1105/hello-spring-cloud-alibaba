@@ -1,6 +1,8 @@
-package com.zz.hello.auth.gateway.component;
+package com.zz.hello.auth.gateway.authorization;
 
-import com.sun.tools.javac.util.Convert;
+import cn.hutool.core.convert.Convert;
+import com.zz.hello.auth.gateway.constant.AuthConstant;
+import com.zz.hello.auth.gateway.constant.RedisConstant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authorization.AuthorizationDecision;
@@ -20,7 +22,6 @@ import java.util.stream.Collectors;
  */
 @Component
 public class AuthorizationManager implements ReactiveAuthorizationManager<AuthorizationContext> {
-
     @Autowired
     private RedisTemplate<String,Object> redisTemplate;
 

@@ -14,19 +14,6 @@ spring:
       transport:
         port: 8721
         dashboard: localhost:8080
-    gateway:
-      discovery:
-        locator:
-          enabled: true
-      routes:
-        - id: NACOS-CONSUMER
-          uri: lb://nacos-consumer
-          predicates:
-            - Method=GET,POST
-        - id: NACOS-CONSUMER-FEIGN
-          uri: lb://nacos-consumer-feign
-          predicates:
-            - Method=GET,POST
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
   redis:

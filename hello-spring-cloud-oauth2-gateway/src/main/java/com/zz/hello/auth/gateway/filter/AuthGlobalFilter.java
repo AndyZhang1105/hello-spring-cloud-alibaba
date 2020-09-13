@@ -1,4 +1,4 @@
-package com.zz.hello.auth.gateway.filters;
+package com.zz.hello.auth.gateway.filter;
 
 import cn.hutool.core.util.StrUtil;
 import com.nimbusds.jose.JWSObject;
